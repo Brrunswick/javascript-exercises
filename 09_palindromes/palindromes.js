@@ -1,12 +1,3 @@
-/* const palindromes = function (string) {
-    const alphanumerical = "abcdefghijklmnopqrstuvwxyz0123456789"
-    const newStr = string.toLowerCase().split("").filter((character => alphanumerical.includes(character))).join("");
-    const reverseStr = newStr.split("").reverse().join("");
-    
-    reverseStr === newStr;
-};
-
-*/
 
 const palindromes = function (str) {
 
